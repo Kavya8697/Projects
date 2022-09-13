@@ -1,0 +1,104 @@
+#container h1 {
+    text-align: center;
+    margin-bottom: auto;
+}
+hr {
+    padding: 1px;
+}
+h3, p, h2 {
+    text-align: center;
+}
+h3 {
+    color: #800000;
+}
+#navElement {
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: none;
+    border-radius: 2em;
+    list-style-type: none;
+    margin: 1em 47em;
+    border-width: 1px;
+    border: 2px solid lightcoral;
+    padding: 1em;
+}
+#palette {
+    text-align: center;
+    border: 1px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20px;
+    margin-bottom: 2em;
+    padding: 1em;
+    width: 50%;
+    height: 40px;
+}
+#header1 {
+   background-color: black;
+   color: white;
+   display: inline-block;
+   margin-right: 1em;
+   margin-bottom: 1em;
+   width: 40%;
+   height: 50%;
+   border-radius: 50%;
+}
+#header3 {
+    background-color: #800000;
+    color: white;
+    display: inline-block;
+    margin-right: 1em;
+    width: 40%;
+    height: 50%;
+    border-radius: 50%;
+}
+#body {
+    background-color: #fff0f5;
+    color: black;
+    display: inline-block;
+    margin-right: 1em;
+    margin-bottom: 1em;
+    width: 40%;
+    height: 50%;
+    border-radius: 50%;
+}
+#main {
+    background-color: #e6e6fa;
+    color: black;
+    display: inline-block;
+    margin-bottom: 1em;
+    width: 40%;
+    height: 50%;
+    border-radius: 50%;
+}
+#voice {
+    margin-top: 2em;
+    margin-bottom: 2em;
+    text-align: center;
+}
+#icons img {
+    margin: 2% 40%;
+}
+#images {
+    clear: both;
+    display: table;
+}
+#image {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+    margin-left: 8em;
+}
+#form {
+    text-align: center;
+    margin-bottom: 2em;
+}
+#buttons {
+    margin-top: 3em;
+    margin-bottom: 3em;
+}
+footer {
+	font-size: .70em;
+	text-align: center;
+	margin-top: 2em;
+}

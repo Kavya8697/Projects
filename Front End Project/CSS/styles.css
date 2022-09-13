@@ -1,0 +1,260 @@
+img {
+	max-width: 100%;
+}
+body {
+	background-color: lavenderblush;
+}
+a img {
+	max-width: 100%;
+	float: left;
+	height:250px ;
+	width: 250px;
+	margin: 15px 15px 15px 75px;
+}
+.container {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.slider img {
+	margin-top: -1em;
+}
+center h1 {
+	color: #800000;
+}
+header {
+	text-align: center;
+	margin-top: 0.2em;
+	margin-bottom:0.2em ;
+	border-radius:0.5em ;
+}
+nav {
+	font-style: italic;
+	font-size: 1.25em;
+	font-weight: bold;
+	text-align: center;
+}
+nav ul {
+	padding: 0;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+nav li {
+	border-radius: 2em;
+	list-style-type: none;
+	margin:  0.3em;
+	margin-top: 5em;
+	padding: 0.4em;
+	display: inline-block;
+	border: 2px solid lightcoral ;
+}
+.navbar li ul{
+    display: none;
+    position: absolute;
+    background: transparent;
+    border-radius: 20px;
+    width: 193px;
+    margin-top: 5px;
+}
+
+.navbar li:hover ul{
+    display: block;
+}
+.navbar li a:hover {
+    background-color: lightblue;
+    border-radius: 20px;
+}
+
+
+.navbar li ul li{
+    width: 80px;
+    border-radius: 50px;
+    font-size: 10px;
+    padding: 10px 20px;
+	margin-top: 1em;
+    
+}
+
+.navbar li ul li a{
+    color: #000;
+	font-size: 1.25em; 
+	padding: 2px;
+}
+
+.navbar li ul li a:hover {
+    background-color: lightblue;
+    border-radius: 20px;
+    font-size: 18px;
+}
+
+.active{
+	background-color: #FF2400;
+	border: none;
+}
+.about p {
+	font-style: italic;
+	font-size: 1.3em;
+	text-align: left;
+}
+.types p {
+	text-align: left;
+	font-size: 1.3em;
+	font-style: italic;
+}
+.types li {
+	font-style: italic;
+	font-size: 1.3em;
+}
+.reasons li {
+	font-size: 1.3em;
+	font-style: italic;
+}
+nav li a {
+	color: #000;
+	text-decoration: none;
+	padding: 5px 10px;
+}
+main {
+	display: block;
+	margin-top: 12%;
+	padding: 1em;
+	border-radius: 2em;
+	background-color: rgb(115, 188, 248);
+	border: solid 0.2em lightcoral;
+	opacity: 0.85;
+}
+main p {
+	font-style: italic;
+	font-size: 1.5em;
+	text-align: center;
+}
+main h3 {
+	text-align: center;
+	font-weight: bold;
+	font-size: 1.5em;
+}
+.desktop img {
+	width: 100%;
+}
+footer {
+	font-size: .70em;
+	text-align: center;
+	margin-top: 2em;
+}
+.content{
+	width: 80%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.content h1{
+	text-align: center;
+	background-color: #f2e9b1;
+	border-radius: 25px;
+	font-size: 35px;
+	margin-top: 75px;
+	margin-bottom: 50px;
+}
+
+.content-column1{
+	width: 100%;
+}
+
+.content-column1 img{
+	width: 350px;
+	border: 5px solid lightcoral;
+	border-radius: 25px;
+	margin-top: 100px;
+	margin-bottom: 20px;
+	transition: 0.5s all;
+}
+.content-align1{
+	display: inline;
+	width: 45%;
+	float: right;
+	margin-top: 100px;
+	margin-bottom: 50px;
+}
+
+.content-align1 h2{
+	font-size: 30px;
+	color: #800000;
+}
+
+.line1{
+	width: 150px;
+	height: 5px;
+	background-color: #333333;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+
+.content-column2{
+	width: 100%;
+}
+
+.content-column2 img{
+	width: 350px;
+	float: right;
+	border: 5px solid lightcoral;
+	border-radius: 25px;
+	margin-top: 100px;
+	margin-bottom: 30px;
+	transition: 0.5s all;
+}
+.content-align2{
+	display: inline;
+	width: 45%;
+	float: left;
+	margin-top: 150px;
+	margin-bottom: 50px;
+}
+
+.content-align2 h2{
+	font-size: 30px;
+	color: #800000;
+}
+.flickr{
+	font-weight: bold;
+	text-align: center;
+	padding: 20px;
+	font-size: 20px;
+}
+.flickr h1{
+	font-size: 30px;
+	color: lightcoral;
+	padding-top: 20px;
+}
+.flickr #search{
+	font-size: 20px;
+	color: black;
+	border-radius: 20px;
+	border: 2px solid lightcoral;
+	padding: 5px 20px 5px 20px;
+}
+.flickr #btnSearch{
+	background-color: lightcoral;
+	font-size: 17px;
+	color: #fff;
+	border: 2px solid lightcoral;
+	border-radius: 20px;
+	padding: 5px 10px;
+	cursor: pointer;
+}
+.line2{
+	width: 150px;
+	height: 5px;
+	background-color: #333333;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.video {
+	padding: 1em;
+	text-align: center;
+}
+video {
+	border: 0.5em groove lightcoral;
+	height: auto;
+	max-width: 100%;
+}
