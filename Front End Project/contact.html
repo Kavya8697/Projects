@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<!-- This website template was created by: KAVYA SRI PANUGANTI, C0823722 -->
+<html lang="en">
+<head>
+	<link rel="stylesheet" href="CSS/contact.css">
+	<title>Misty Splash</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+	<script src="JS/jquery.validate.min.js"></script>
+	<script src="JS/additional-methods.min.js"></script>
+    <script src="JS/validation.js"></script>
+    <script src="JS/color_transition.js"></script>
+	<script src="JS/highlight_menu.js"></script>
+</head>
+<body>
+
+	<header>
+		<div class="container">
+		  	<a href="index.html"><img src="Images/logo.png" alt="Company Logo"></a>
+		</div>
+	</header>
+	<nav id="menuItems">
+		<ul class="navbar">
+			<li><a href="index.html">Home</a></li>
+			<li><a href="about.html">About</a></li>
+			<li><a href="team.html">Our Team</a></li>
+			<li><a href="specials.html">Specials</a></li>
+			<li><a href="training.html">Training</a></li>
+			<li><a href="media.html">Media</a></li>
+			<li><a href="contact.html">Contact Us</a></li>
+			<li><a href="#">Report</a>
+				<ul id="dd">
+					<li><a href="web1.html">WEB 1</a></li>
+					<li><a href="web2.html">WEB 2</a></li>
+					<li><a href="web3.html">WEB 3</a></li>
+                    <li><a href="web4.html">WEB 4</a></li>
+				</ul>
+			</li>
+		</ul>
+	</nav>
+
+    <main>
+        <h2>Contact Us</h2>
+        <div><p>Let's keep in touch. Subscribe to receive latest news and updates.</p></div>
+        <div><form id="contact_us">
+            <fieldset>
+                <legend>Personal Information</legend>
+                
+                <label for="fname">First Name:</label>
+                <input type="text" id="fname" name="fname"><br>
+
+                <label for="lname">Last Name:</label>
+                <input type="text" id="lname" name="lname"><br>
+
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" autofocus><br>
+
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" placeholder="999-999-9999"><br>
+
+                <label for="birthday">Date of Birth:</label>
+                <input type="date" id="birthday" name="birthday"><br>
+            </fieldset>
+
+            <p>I would like more information about:</p>
+            <ul>
+                <li><input type="checkbox" name="warranty" id="warranty" value="warranty" class="chkbx">Warranty</li>
+                <li><input type="checkbox" name="prdctdisc" id="prdctdisc" value="prdctdisc" class="chkbx">Product Discounts</li>
+                <li><input type="checkbox" name="custmrserv" id="custmrserv" value="custmrserv" class="chkbx">Customer Services</li>
+            </ul>
+            <label for="reference">Referral Source:</label>
+                <select name="reference" id="reference">
+                    <option value="ad">Advertisement</option>
+                    <option value="site">Company's Website</option>
+                    <option value="social">Social Media</option>
+                    <option value="Other">Other</option>
+                </select><br>
+            
+            <label for="Questions">Questions?</label>
+            <textarea id="questions" name="questions" rows="3" cols="25"></textarea><br>
+			
+            <input type="submit" id="submit" value="submit" class="btn">
+			<input type="reset" id="reset" value="Reset Form" class="btn">
+        </form>
+    </div>
+    </main>
+
+    <footer>
+		<p>&copy; Copyright 2099. All Rights Reserved.<br>
+		<a href="mailto:@mistysplash.com">Request Information</a><br>
+		Designed by KAVYA SRI PANUGANTI C0823722
+		</p>
+	</footer>
+</body>
+</html>

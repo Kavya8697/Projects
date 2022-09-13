@@ -1,0 +1,94 @@
+{
+	"EMPLOYEES":[
+		{		
+			"NAME" : "Kavya Sri Panuganti",
+			"TITLE" : "CEO",
+			"DEPARTMENT" : "Management",
+			"BIO": "Experienced Human Resources Generalist with a demonstrated mytory of working in the consumer electronics industry. Skilled in Analytical Skills, Executive Search, Communication, Technical Recruiting, and Internet Recruiting."
+		},
+		{
+			"NAME" : "Sravya Panuganti",
+			"TITLE" : "CFO",
+			"DEPARTMENT" : "Management",
+			"BIO":"With an established history of working in the telecoms business, an experienced Software Engineer Team Lead is needed. Microservices, Dot Net, C++, C#, HTML5, CSS3, Angular, React, Cloud Computing, Java (J2EE), Spring Boot, Angular, Spark, Kafka, Cassandra, Design distributed application architecture With a Bachelor of Engineering - BE in Computer Engineering from GOVERNMENT ENGINEERING COLLEGE, MODASA 016, I am a strong engineering professional."
+		},
+		{
+			"NAME" : "Sai Preetham Panuganti",
+			"TITLE" : "Owner",
+			"DEPARTMENT" : "Management",
+			"BIO":"Project management through internal tools with agile methodology approach in monthly retainer and fixed cost projects. Involved in all stages of SDLC (Software development life cycle) which includes Requirement Gathering, Analysis, Design, Development, Testing and Deployment of Enterprise Web & Windows. Proven ability to lead, manage project resources, interact with clients, coordinate and work in achieving high levels of productivity and efficiency in complex, dynamic and challenging environments. A skilled communicator endowed with strong analytical, relationship management, team management and co-ordination skills."
+		},
+		{
+			"NAME" : "Sreenivas Panuganti",
+			"TITLE" : "Chairman",
+			"DEPARTMENT" : "Management",
+			"BIO":"In monthly retainer and fixed cost projects, project management is done using internal tools and an agile methodology approach. Involved in all steps of the SDLC (Software Development Life Cycle), including gathering requirements, analysing, designing, developing, testing, and deploying Enterprise Web & Windows applications. Proven ability to lead, manage project resources, communicate with clients, coordinate, and operate in complex, dynamic, and demanding contexts to achieve high levels of productivity and efficiency. A gifted communicator with great analytical, relationship-building, team-building, and coordination abilities."
+		},
+		{
+			"NAME" : "Shobha Rani Panuganti",
+			"TITLE" : "Finance Head",
+			"DEPARTMENT" : "Finance",
+			"BIO":"In monthly retainer and fixed cost projects, project management is done using internal tools and an agile methodology approach. Involved in all steps of the SDLC (Software Development Life Cycle), including gathering requirements, analysing, designing, developing, testing, and deploying Enterprise Web & Windows applications. Proven ability to lead, manage project resources, communicate with clients, coordinate, and operate in complex, dynamic, and demanding contexts to achieve high levels of productivity and efficiency. A gifted communicator with great analytical, relationship-building, team-building, and coordination abilities."
+		},
+		{
+			"NAME" : "Chinna",
+			"TITLE" : "CTO",
+			"DEPARTMENT" : "Management",
+			"BIO":" Experience in functional testing of Amdocs CRM & Amdocs OMS products. Requirement analysis with the BR/SR & HLD document and preparation of test coverage items. Preparation of Test Plan, Test Design, Bug Reporting and Test Exit Reports. Experience in System, Integration, End-to-End, Regression and Web Services testing. Conducted & Coordinated CRM Training programs for new joiners & other team members."
+		},
+		{
+			"NAME" : "Kutty",
+			"TITLE" : "CEO",
+			"DEPARTMENT" : "Management",
+			"BIO":" Had prior experience of working in IT industry as a Business Development Manager. I'm well-versed in negotiations, planning and development, relationship management and operations."
+		},
+		{
+			"NAME" : "Chinnari",
+			"TITLE" : "CTO",
+			"DEPARTMENT" : "Design",
+			"BIO":" I bring an engineering perspective and a creative problem-solving approach to create products and experiences people love to use. Persistence, curiosity and meticulous attention to detail define me. My core interest in designing, prototyping, and master’s education in HCI, Technology Innovation and Usable, Privacy and Security and experience working with tools like Balsamiq, Photoshop, Adobe XD and Axure made me competent in all aspects of the design process."
+		},
+		{
+			"NAME" : "Pandu",
+			"TITLE" : "Sales Manager",
+			"DEPARTMENT" : "Sales",
+			"BIO":" I believe everyone is a storyteller and every story teaches the one who wants to learn. My philosophical approach, for now, is that of absurdist with a hint of existentialist."
+		},
+		{
+			"NAME" : "Srinu",
+			"TITLE" : "Sales Manager",
+			"DEPARTMENT" : "Sales",
+			"BIO":" More than five years experience in software development. I'm renowned for qualitative Java coding, accuracy and attention to details, professional oriented on result with excellent communicative skills, highly motivated with positive vision. Certified Workfusion Developer with experience in Data Analysis and Machine Learning."
+		},
+		{
+			"NAME" : "Shobha",
+			"TITLE" : "Technical Head",
+			"DEPARTMENT" : "Development",
+			"BIO":" strongly believes in people and the power of community. He is a co-lead of Facebook Developers Circle, Ahmedabad and Co-Organizer at PyData Ahmedabad which is a local chapter of US-based premier non-profit tech organization. He has been invited by Facebook for Facebook Developers Circle APAC Annual Summit 2018 in Singapore. His second international trip was to Kuala Lumpur, Malaysia where he was invited to give a talk on Business Model Canvas at Global Entrepreneurship Bootcamp 2018."
+		},
+		{
+			"NAME" : "Yakshith",
+			"TITLE" : "Technical Lead",
+			"DEPARTMENT" : "Development",
+			"BIO":" The young Software Developer with the experience of building the scalable and secure APIs and microservices. I am a passion driven full stack web developer looking for the opportunities to work on any cutting-edge technologies and tools. Python and MEAN stack are the major technologies I am working on. Apart from that, I am a start-up enthusiastic and a geek who has been participated in more than 5 hackathons including Ingenious Hackathon by IEEE branch of Ahmedabad University, Hack-NU-Thon by Nirma University and Hackday Sprint Hackathon by Facebook DevC. "
+		},
+		{
+			"NAME" : "Evansh",
+			"TITLE" : "Sr. Developer",
+			"DEPARTMENT" : "Development",
+			"BIO":" software engineer with the passion of technology, people and community building. Whatever he is doing in his professional as well as personal life is all-round technology and empowering people from schools students to professionals. He runs a startup Version Labs of small team works in the technology space Software, blockchain and digital marketing specialized in chatbots which actually drives sales for brands. "
+		},
+		{
+			"NAME" : "Balu",
+			"TITLE" : "Jr. Developer",
+			"DEPARTMENT" : "Development",
+			"BIO":" He started his journey by attending various hackathons and that's where his tremendous journey of technology began. His team participated in the FinTech hackathon organized by DCB Bank and won the first prize for their Conversational Invoicing Technology for Freelancers. He is not only creating technology for people but also very much passionate about teaching technology to students to make them capable enough for building solutions for society. "
+		},
+		{
+			"NAME" : "Chinnu",
+			"TITLE" : "Jr. Developer",
+			"DEPARTMENT" : "Development",
+			"BIO":" He is a firm believer in the power of people and community. He is a co-leader of the Facebook Developers Circle in Ahmedabad and a co-organizer of PyData Ahmedabad, a local branch of a leading non-profit tech organisation located in the United States. Facebook has asked him to attend the APAC Annual Summit of the Facebook Developers Circle in Singapore. His second foreign journey was to Kuala Lumpur, Malaysia, where he was asked to speak at the Global Entrepreneurship Bootcamp 2018 on the Business Model Canvas."
+		}
+	]
+}

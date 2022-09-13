@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	
+		<script	src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script	src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+
+		<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+		<script src="https://code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
+		<script src="http://12.42.204.30:7005/jTable/jquery.jtable.js"></script>
+		<script src="http://12.42.204.30:7005/scripts/helpers.js"></script>
+		<link href="http://12.42.204.30:7005/jTable/themes/lightcolor/red/jtable.css" rel="stylesheet">
+			
+		<!--
+		<link href="http://12.42.204.30:7005/jTable/themes/lightcolor/gray/jtable.css" rel="stylesheet">
+		<link href="http://12.42.204.30:7005/jTable/themes/lightcolor/green/jtable.css" rel="stylesheet">
+		<link href="http://12.42.204.30:7005/jTable/themes/lightcolor/orange/jtable.css" rel="stylesheet">
+		<link href="http://12.42.204.30:7005/jTable/themes/lightcolor/blue/jtable.css" rel="stylesheet">
+		<link href="http://12.42.204.30:7005/jTable/themes/metro/lightgray/jtable.css" rel="stylesheet">
+		<link href="http://12.42.204.30:7005/jTable/themes/metro/red/jtable.css" rel="stylesheet">
+		-->
+
+														<!-- Do not change the code above -->
+	
+		<link rel="stylesheet" href="CSS/report.css">
+		<link rel="icon" href="Images/Icon.ico">
+		
+		<title>Misty Splash | Web2</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600;700&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+	
+		<script>
+			$(document).ready(function() {
+				$('#web2').jtable({
+					title : 'Customer Orders',             
+					paging : true,                      
+					pageSize : 6,                      
+					sorting : true,                     
+					defaultSorting : 'customer_name, order_date, order_id, product_id', 
+					actions : {
+						listAction : 'genJson2.rpgle?jtView=WEB2V'  
+					},
+					fields : {                          
+						customer_name : {
+							title : 'Customer Name',
+							width : '10%',
+							list : true
+						},
+						order_date : {
+							title : 'Order date',
+							width : '10%',
+							list : true
+						},
+						order_id : {
+							title : 'Order Id',
+							width : '10%',
+							list : true
+						},
+						product_id : {
+							title : 'Product Id',
+							width : '10%',
+							list : true
+						},
+						description : {
+							title : 'Description',
+							width : '10%',
+							list : true
+						},
+						quantity_ordered : {
+							title : 'Quantity Ordered',
+							width : '10%',
+							list : true
+						},
+						model_price : {
+							title : 'Model Price',
+							width : '10%',
+							list : true
+						},
+						extended_price : {
+							title : 'Extended Price',
+							width : '10%',
+							list : true
+						}
+					}
+				});                                     
+				$('#web2').jtable('load');
+			});
+		</script>
+	
+	</head>
+	<body>
+		<header>
+			<a href="index.html"><img src="Images/logo.png" class="logo"></a>
+			<nav>
+				<ul class="navbar">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="about.html">About</a></li>
+					<li><a href="team.html">Our Team</a></li>
+					<li><a href="specials.html">Specials</a></li>
+					<li><a href="training.html">Training</a></li>
+					<li><a href="media.html">Media</a></li>
+					<li><a href="contact.html">Contact Us</a></li>
+					<li><a href="#">Report</a>
+						<ul id="dd">
+							<li><a href="web1.html">WEB 1</a></li>
+							<li><a href="web2.html">WEB 2</a></li>
+							<li><a href="web3.html">WEB 3</a></li>
+                    		<li><a href="web4.html">WEB 4</a></li>
+						</ul>
+					</li>
+				</ul>
+			</nav>
+		</header>
+        <main>
+			<h1> WEB2 Application </h1>
+			<h2> Customer Orders </h2>
+			<div id="web2" class="web"></div>
+        </main>   
+		<footer>
+			<p>&copy; Copyright 2099. All Rights Reserved.<br>
+			<a href="mailto:@mistysplash.com">Request Information</a><br>
+			Designed by KAVYA SRI PANUGANTI C0823722
+			</p>
+		</footer>
+	</body>
+</html>
